@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./to_do_app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-image: url(./to_do_img.jpg)">
+        <div class="text-area-of-header"><br>
+          <h1>My To Do List</h1>
+          <!-- <br /> -->
+          <p id="date"></p>
+        </div>
+      </div>
+      <div class="new-task">
+        <input
+          type="text"
+          name="new task"
+          id="new-task-box"
+          placeholder="Add a new to do..."
+          required
+        />
+        <button type="submit" id="add-btn"><strong>Add</strong></button>
+      </div>
+      <div class="task-list">
+        <h3>To-Do List:</h3>
+        <li>Study</li>
+        <li>Reading book</li>
+      </div>
+      <div class="clear">
+        <button type="submit" id="clear-btn"><strong>Clear</strong></button>
+      </div>
+    </div>
+    <script src="./to_do_app.js"></script>
+  </body>
+</html>
